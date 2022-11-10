@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.container{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #e9e9e9;
+  /* altura minima 100 vh para preenhcer a tela toda */
+}
+
+.logoNavBar {
+  width: 180px;
+}
+
+.header{
+  width: 100%;
+  min-height: 40px; /* Pela responsividade */
+  background-color: #292929;
+  display: flex;
+  flex-wrap: wrap; /* Responsividade para quebrar quando diminuir a tela */
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  gap: 8px 15px; /* Responsividade para quando quebrar os botões nao ficarem no logo */
+}
+
+
+.headerBtnGroup {
+  display: flex;
+  gap: 15px;
+  /* Aumentar distanciamento entre os botões */
+}
+
+.navBtn{
+  font-size: 16px;
+  padding: 6px;
+  background-color: transparent;
+  border: 2px solid transparent; /* Influencia no hover */
+  color: #fff;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.navBtn:hover {
+  border-bottom: 2px solid #000;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  padding-top: 20px;
+}
+
+.sectionDescription {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #383838;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas: "mainContent sidebarContent"; /* Informando quais a areas */
+  padding: 20px;
+  flex: 1 0 auto; /* preencher todo espaço do Grid Container */
+}
+
+.mainContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  grid-area: mainContent;
+}
+
+.categoryCard {
+  width: 280px;
+  height: 380px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+  text-align: justify;
+}
+
+.categoryCard:hover {
+  box-shadow: #000;
+}
+
+.mainCardImg {
+  width: 100%;
+  height: 180px; /* Não precisa ser responsivo em %*/
+  border-radius: 10px;
+}
+
+.sidebarCardImg {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.mainCategoryCardTitle {
+  padding: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainCategoryCardDescription {
+  padding: 6px;
+}
+
+.sidebarContent {
+  color: #383838;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 300px;
+  grid-area: sidebarContent;
+  gap: 20px;
+}
+
+.sidebarCard {
+  width: 75%;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+
+}
+
+.sidebarTitle {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.sidebarCardTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+  color: #383838;
+}
