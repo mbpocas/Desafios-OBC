@@ -48,13 +48,15 @@
 
 .navBtn:hover {
   border-bottom: 2px solid #000;
+  font-size: 20px;
 }
 
 .sectionTitle {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 26px;
+  font-size: 32px;
   padding-top: 20px;
+  font-weight: bold;
 }
 
 .sectionDescription {
@@ -90,7 +92,8 @@
 }
 
 .categoryCard:hover {
-  box-shadow: #000;
+  padding: 10px;
+  box-shadow: 5px 5px #292929;
 }
 
 .mainCardImg {
@@ -104,9 +107,11 @@
   border-radius: 10px;
 }
 
+
 .mainCategoryCardTitle {
   padding: 6px;
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
 }
 
 .mainCategoryCardDescription {
@@ -124,19 +129,31 @@
   gap: 20px;
 }
 
+.sidebarContent:hover .sidebarTitle{
+  font-size: 28px;
+  font-weight: 900;
+  color: #000;
+}
+
 .sidebarCard {
   width: 75%;
   border: 1px solid transparent;
   border-radius: 10px;
   transition: 0.5s;
   cursor: pointer;
-
 }
 
+.sidebarCard:hover {
+  padding: 10px;
+  box-shadow: 5px 5px #292929;
+  font-weight: 900;
+}
+
+
 .sidebarTitle {
-  font-size: 20px;
+  font-size: 24px;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .sidebarCardTitle {
