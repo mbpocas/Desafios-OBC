@@ -13,10 +13,6 @@
   /* altura minima 100 vh para preenhcer a tela toda */
 }
 
-.logoNavBar {
-  width: 180px;
-}
-
 .header{
   width: 100%;
   min-height: 40px; /* Pela responsividade */
@@ -29,6 +25,9 @@
   gap: 8px 15px; /* Responsividade para quando quebrar os botões nao ficarem no logo */
 }
 
+.logoNavBar {
+  width: 180px;
+}
 
 .headerBtnGroup {
   display: flex;
@@ -102,13 +101,6 @@
   border-radius: 10px;
 }
 
-.sidebarCardImg {
-  width: 200px;
-  padding: 3px;
-  border-radius: 10px;
-}
-
-
 .mainCategoryCardTitle {
   padding: 6px;
   font-family: Arial, Helvetica, sans-serif;
@@ -128,13 +120,12 @@
   min-width: 300px;
   grid-area: sidebarContent;
   gap: 20px;
-
 }
 
 .sidebarContent:hover .sidebarTitle{
-  font-size: 26px;
   font-weight: 900;
   color: #000;
+  text-align: center;
 }
 
 .sidebarCard {
@@ -148,12 +139,17 @@
   align-items: center;
 }
 
+.sidebarCardImg {
+  width: 200px;
+  padding: 3px;
+  border-radius: 10px;
+}
+
 .sidebarCard:hover {
   padding: 5px;
   box-shadow: 5px 5px #292929;
   font-weight: 900;
 }
-
 
 .sidebarTitle {
   font-size: 24px;
@@ -168,7 +164,6 @@
   text-transform: uppercase;
   color: #000;
 }
-
 
 .footer {
   width: 100%;
@@ -200,6 +195,9 @@
   }
   .sidebarContent {
     min-width: auto;
+  }
+  .footerAnchor {
+    font-size: 19px;
   }
 }
 
