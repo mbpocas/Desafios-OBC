@@ -92,7 +92,7 @@
 
 .categoryCard:hover {
   padding: 10px;
-  box-shadow: 5px 5px #292929;
+  box-shadow: 5px 5px 5px 5px #292929;
 }
 
 .mainCardImg {
@@ -147,7 +147,7 @@
 
 .sidebarCard:hover {
   padding: 5px;
-  box-shadow: 5px 5px #292929;
+  box-shadow: 2px 2px 2px 2px #292929;
   font-weight: 900;
 }
 
