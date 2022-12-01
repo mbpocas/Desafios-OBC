@@ -63,3 +63,21 @@
     color: $link-hover;
   }
 }
+
+// Media Query
+
+@media (max-width: 405px) {
+  .logoPc {
+    width: 180px;
+    margin-top: 15px;
+  }
+  .footer {
+    font-size: 10px;
+  }
+}
+@media (max-width: 250px) {
+  .logoPc {
+    width: 150px;
+    margin-top: 15px;
+ }
+} ;
