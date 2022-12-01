@@ -1,5 +1,99 @@
-body {
-  background-color: rgb(136, 20, 20);
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;514&display=swap");
+* {
+  color: #fff;
+}
+
+.header {
+  font-size: 12px;
+  font-weight: bold;
+}
+.header #navItem:hover {
+  color: #b9b9b9;
+}
+
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.arrowDown {
+  display: inline-block;
+  width: 90px;
+  margin-top: 5px;
+}
+
+.logoNav {
+  width: 280px;
+  margin-left: -10px;
+  margin-right: 40px;
+}
+
+#button {
+  padding: 15px 35px;
+  border: 2px solid white;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #000;
+  height: 15vh;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer a:hover {
+  color: #b9b9b9;
+}
+
+.copyMBPocas {
+  color: #555252;
+}
+
+.iconFooter {
+  margin-left: 5px;
+  font-size: 14px;
+}
+.iconFooter:hover {
+  color: #b9b9b9;
+}
+
+* {
+  color: #fff;
+}
+
+.container00.container01 {
+  background-image: url(/assets/images/home/01.jpg);
+}
+.container00.container02 {
+  background-image: url(/assets/images/home/03.jpg);
+}
+.container00.container03 {
+  background-image: url(/assets/images/home/02.jpg);
+}
+.container00.container04 {
+  background-image: url(/assets/images/home/04.jpg);
+}
+
+.titlePadding {
+  padding-top: 200px;
+}
+
+.shortTitle {
+  width: 450px;
+  margin-bottom: -25px;
+}
+
+.mediumTitle {
+  width: 650px;
+  margin-bottom: -25px;
 }
 
 /*# sourceMappingURL=style.css.map */
