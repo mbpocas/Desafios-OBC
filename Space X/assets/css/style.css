@@ -65,6 +65,21 @@
   color: #b9b9b9;
 }
 
+@media (max-width: 405px) {
+  .logoPc {
+    width: 180px;
+    margin-top: 15px;
+  }
+  .footer {
+    font-size: 10px;
+  }
+}
+@media (max-width: 250px) {
+  .logoPc {
+    width: 150px;
+    margin-top: 15px;
+  }
+}
 * {
   color: #fff;
 }
@@ -94,6 +109,24 @@
 .mediumTitle {
   width: 650px;
   margin-bottom: -25px;
+}
+
+@media (max-width: 750px) {
+  .titlePadding {
+    padding-top: 120px;
+  }
+  .shortTitle,
+  .mediumTitle {
+    width: auto;
+    font-size: 40px;
+  }
+}
+@media (max-width: 425px) {
+  .shortTitle,
+  .mediumTitle {
+    width: auto;
+    font-size: 30px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
