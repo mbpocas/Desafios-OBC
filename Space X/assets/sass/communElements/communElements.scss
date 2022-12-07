@@ -70,9 +70,9 @@
   padding-top: 240px;
   a {
     text-decoration: none;
-    color: $link-hover;
+    color: #fff;
     &:hover {
-      color: $table-item;
+      color: $link-hover;
     }
   }
 
@@ -99,10 +99,23 @@ button {
   .footer {
     font-size: 10px;
   }
-}
+};
 @media (max-width: 250px) {
   .logoPc {
     width: 150px;
     margin-top: 15px;
  }
 } ;
+@media (max-width: 510px) {
+  .downloadDesc{
+    padding-top: 140px;
+  }
+
+  button {
+    margin: 10px 0px;
+  }
+
+  .span {
+    font-size: 12px;
+  }
+};

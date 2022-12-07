@@ -106,3 +106,108 @@
   font-family: 'Rubik', sans-serif;
   font-weight: 700;
 }
+
+// Media Query
+
+@media (max-width: 1024px) {
+  .titleFalcon9 {
+    font-size: 60px;
+  }
+
+  .subTitleFalcon {
+    font-size: 16px;
+  }
+
+  .titleNumb {
+    font-size: 60px ;
+  }
+
+  .subTitleNumb {
+    font-size: 16px;
+  }
+
+  .falcon9Desc {
+    width: 420px;
+    font-size: 16px;
+  }
+
+  #overViewPosition {
+    display: block;
+    width: 420px;
+    font-size: 14px;
+  }
+};
+
+  @media (max-width: 768px) {
+
+    .falcon9Desc {
+      width: 280px;
+      font-size: 16px;
+    }
+
+    #overViewPosition {
+      display: block;
+      width: 280px;
+      font-size: 14px;
+    }
+};
+
+  @media (max-width: 425px) {
+    .titleContent {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-height: 80vh;
+
+    }
+    .titleFalcon9 {
+      font-size: 50px;
+    }
+
+    .numbers {
+      padding-top: 50px;
+    }
+    .titleNumb {
+      font-size: 20px ;
+    }
+    .subTitleNumb {
+      font-size: 12px;
+    }
+
+    .falcon9Desc {
+      width: 200px;
+      font-size: 14px;
+      padding-top: 50px;
+      line-height: 20px;
+    }
+
+    #overViewPosition {
+      display: flex;
+      flex-direction: column;
+      height: 90vh;
+      width: 200px;
+      font-size: 12px;
+      padding-top: 50px;
+      padding-right: 30px;
+      line-height: 15px;
+    }
+
+    .hidden {
+      visibility: hidden;
+    }
+
+    .titleOverView {
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .subTitleOvewView {
+      font-size: 18px;
+    }
+
+    .container07 {
+      table{
+      visibility: hidden;
+      }
+    }
+
+};
