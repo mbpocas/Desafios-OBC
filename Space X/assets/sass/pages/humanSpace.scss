@@ -1,3 +1,86 @@
-body {
-  background-color: black;
+.container00 {
+  &.container08 {
+     background-image:
+     linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+     url(/assets/images/humanFlight/01.jpg);
+  }
+  &.container09 {
+    background-image: url(/assets/images/humanFlight/02.jpg);
+  }
+  &.container10 {
+    background-image: url(/assets/images/humanFlight/03.jpg);
+  }
+  &.container11 {
+    background-image: url(/assets/images/humanFlight/04.jpg);
+  }
+  &.container12 {
+    background-image: url(/assets/images/humanFlight/05.jpg);
+  }
+}
+
+.titleContainer08 {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleHuman {
+  font-family: 'Rubik', sans-serif;
+  font-size: 80px;
+  font-weight: 514;
+  margin-top: 60px;
+}
+
+.subTitleHuman {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.arrowDown {
+  margin-top: 200px;
+  width: 150px;
+}
+
+.eartDesc {
+  background-color: #000;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  p {
+  color: $table-item;
+  font-weight: 400;
+  font-size: 20px;
+  width: 800px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+  }
+}
+
+.earthContent, .moonContent {
+  margin-left: 55%;
+  padding-top: 15%;
+}
+
+.stationContent, .marsContent {
+  margin-left: 5%;
+  padding-top: 15%;
+}
+
+.titleDestiny {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.shortTitleHuman {
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-size: 18px;
 }
