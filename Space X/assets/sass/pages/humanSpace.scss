@@ -65,6 +65,7 @@
 }
 
 .earthContent, .moonContent {
+  width: auto;
   margin-left: 55%;
   padding-top: 15%;
 }
@@ -84,3 +85,247 @@
   margin-bottom: 20px;
   font-size: 18px;
 }
+
+// Media Query
+
+@media (max-width: 1024px) {
+  .titleContainer08 {
+    height: 70vh;
+  }
+
+  .titleHuman {
+    font-family: 'Rubik', sans-serif;
+    font-size: 60px;
+    font-weight: 514;
+    margin-top: 140px;
+  }
+
+  .arrowDown {
+    margin-top: 160px;
+    width: 120px;
+  }
+
+  .eartDesc {
+    p {
+    font-size: 18px;
+    width: 700px;
+    }
+  }
+
+  .earthContent, .moonContent {
+    padding-top: 10%;
+  }
+
+  .stationContent, .marsContent {
+    margin-left: 4%;
+    padding-top: 10%;
+  }
+
+  .titleDestiny {
+    font-size: 40px;
+  }
+
+  .shortTitleHuman {
+    width: 420px;
+  }
+
+};
+
+@media (max-width: 768px) {
+  .titleContainer08 {
+    height: 100vh;
+  }
+
+  .titleHuman {
+    font-size: 50px;
+    margin-top: -170px;
+  }
+
+  .arrowDown {
+    display: none;
+  }
+
+  .eartDesc {
+    height: 20vh;
+
+    p {
+    font-size: 18px;
+    width: 700px;
+    }
+  }
+
+  .earthContent, .moonContent {
+    padding-top: 20%;
+  }
+
+  .stationContent, .marsContent {
+    margin-left: 3%;
+    padding-top: 20%;
+  }
+
+  .titleDestiny {
+    font-size: 30px;
+  }
+
+  .shortTitleHuman {
+    width: 300px;
+    font-size: 16px;
+  }
+
+};
+
+@media (max-width: 425px) {
+
+  .titleHuman {
+    font-size: 30px;
+    margin-top: -170px;
+
+  }
+
+  .subTitleHuman {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  .arrowDown {
+    display: none;
+  }
+
+  .eartDesc {
+    height: 10vh;
+
+    p {
+    font-size: 14px;
+    width: auto;
+    }
+  }
+
+  .earthContent, .moonContent {
+    padding-top: 30%;
+  }
+
+  .stationContent, .marsContent {
+    margin-left: 1%;
+    padding-top: 15%;
+  }
+
+  .titleDestiny {
+    font-size: 20px;
+    margin-top: -20px;
+  }
+
+  .shortTitleHuman {
+    width: 150px;
+    font-size: 14px;
+  }
+
+};
+
+@media (max-width: 375px) {
+  .eartDesc {
+    display: none;
+  }
+
+  .earthContent, .moonContent {
+    padding-top: 30%;
+    margin-left: 30%;
+  }
+
+  .stationContent, .marsContent {
+    margin-left: 1%;
+    padding-top: 15%;
+  }
+
+  .titleDestiny {
+    font-size: 20px;
+    margin-top: -20px;
+  }
+
+  .shortTitleHuman {
+    width: auto;
+    font-size: 12px;
+  }
+
+  .container00 {
+    &.container08 {
+       background-image:
+       linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+       url(/assets/images/humanFlight/01.jpg);
+    }
+    &.container09 {
+      background-image:
+      linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+       url(/assets/images/humanFlight/02.jpg);
+    }
+    &.container10 {
+      background-image:
+      linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+      url(/assets/images/humanFlight/03.jpg);
+    }
+    &.container11 {
+      background-image:
+      linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+      url(/assets/images/humanFlight/04.jpg);
+    }
+    &.container12 {
+      background-image:
+      linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+      url(/assets/images/humanFlight/05.jpg);
+    }
+  }
+
+};
+
+@media (max-width: 320px) {
+  .eartDesc {
+    display: none;
+  }
+
+  .earthContent, .moonContent {
+    padding-top: 30%;
+    margin-left: 30%;
+  }
+
+  .stationContent, .marsContent {
+    margin-left: 1%;
+    padding-top: 15%;
+  }
+
+  .titleDestiny {
+    font-size: 20px;
+    margin-top: -20px;
+  }
+
+  .shortTitleHuman {
+    width: auto;
+    font-size: 12px;
+  }
+
+  .container00 {
+    &.container08 {
+       background-image:
+       linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+       url(/assets/images/humanFlight/01.jpg);
+    }
+    &.container09 {
+      background-image:
+      linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+       url(/assets/images/humanFlight/02.jpg);
+    }
+    &.container10 {
+      background-image:
+      linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+      url(/assets/images/humanFlight/03.jpg);
+    }
+    &.container11 {
+      background-image:
+      linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+      url(/assets/images/humanFlight/04.jpg);
+    }
+    &.container12 {
+      background-image:
+      linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+      url(/assets/images/humanFlight/05.jpg);
+    }
+  }
+
+};
