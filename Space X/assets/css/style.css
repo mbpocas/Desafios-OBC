@@ -383,7 +383,7 @@ button {
   font-size: 20px;
 }
 
-.arrowDown {
+.arrowDownHuman {
   margin-top: 200px;
   width: 150px;
 }
@@ -439,7 +439,7 @@ button {
     font-weight: 514;
     margin-top: 140px;
   }
-  .arrowDown {
+  .arrowDownHuman {
     margin-top: 160px;
     width: 120px;
   }
@@ -469,7 +469,7 @@ button {
     font-size: 50px;
     margin-top: -170px;
   }
-  .arrowDown {
+  .arrowDownHuman {
     display: none;
   }
   .eartDesc {
@@ -503,7 +503,7 @@ button {
     margin-top: 15px;
     font-size: 14px;
   }
-  .arrowDown {
+  .arrowDownHuman {
     display: none;
   }
   .eartDesc {
