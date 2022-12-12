@@ -2,7 +2,7 @@
   <Exercícios ONE BIT CODE>
 </p>
 
-## 💻 Diversos 
+## 💻 Diversos
 
 Desafios propostos pela ONE BIT CODE.
 
@@ -12,3 +12,4 @@ Desafios propostos pela ONE BIT CODE.
 * Css
 * Sass
 * Bootstrap
+* 
