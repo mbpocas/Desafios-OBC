@@ -3,6 +3,10 @@
   color: #fff;
 }
 
+* {
+  color: #fff;
+}
+
 .header {
   font-size: 12px;
   font-weight: bold;
@@ -113,21 +117,17 @@ button {
     font-size: 12px;
   }
 }
-* {
-  color: #fff;
-}
-
 .container00.container01 {
-  background-image: url(/assets/images/home/01.jpg);
+  background-image: url(../../../assets/images/home/01.jpg);
 }
 .container00.container02 {
-  background-image: url(/assets/images/home/03.jpg);
+  background-image: url(../../../assets/images/home/03.jpg);
 }
 .container00.container03 {
-  background-image: url(/assets/images/home/02.jpg);
+  background-image: url(../../../assets/images/home/02.jpg);
 }
 .container00.container04 {
-  background-image: url(/assets/images/home/04.jpg);
+  background-image: url(../../../assets/images/home/04.jpg);
 }
 
 .titlePadding {
