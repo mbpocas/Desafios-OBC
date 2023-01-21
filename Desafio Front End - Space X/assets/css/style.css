@@ -118,16 +118,16 @@ button {
   }
 }
 .container00.container01 {
-  background-image: url(../../../assets/images/home/01.jpg);
+  background-image: url(../images/home/01.jpg);
 }
 .container00.container02 {
-  background-image: url(../../../assets/images/home/03.jpg);
+  background-image: url(../images/home/03.jpg);
 }
 .container00.container03 {
-  background-image: url(../../../assets/images/home/02.jpg);
+  background-image: url(../images/home/02.jpg);
 }
 .container00.container04 {
-  background-image: url(../../../assets/images/home/04.jpg);
+  background-image: url(../images/home/04.jpg);
 }
 
 .titlePadding {
@@ -162,28 +162,28 @@ button {
   }
 }
 .container00.container05 {
-  background-image: url(/assets/images/falcon9/f9back.jpg);
+  background-image: url(../images/falcon9/f9back.jpg);
 }
 .container00.container06 {
-  background-image: url(/assets/images/falcon9/02.jpg);
+  background-image: url(../images/falcon9/02.jpg);
 }
 .container00.carrossel01 {
-  background-image: url(/assets/images/falcon9/03.jpg);
+  background-image: url(../images/falcon9/03.jpg);
 }
 .container00.carrossel02 {
-  background-image: url(/assets/images/falcon9/04.jpg);
+  background-image: url(../images/falcon9/04.jpg);
 }
 .container00.carrossel03 {
-  background-image: url(/assets/images/falcon9/05.jpg);
+  background-image: url(../images/falcon9/05.jpg);
 }
 .container00.carrossel04 {
-  background-image: url(/assets/images/falcon9/06.jpg);
+  background-image: url(../images/falcon9/06.jpg);
 }
 .container00.carrossel05 {
-  background-image: url(/assets/images/falcon9/07.jpg);
+  background-image: url(../images/falcon9/07.jpg);
 }
 .container00.container07 {
-  background-image: url(/assets/images/falcon9/08.jpg);
+  background-image: url(../images/falcon9/08.jpg);
 }
 
 .titleContent {
