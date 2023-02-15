@@ -17,4 +17,4 @@
 * Css
 * Sass
 * Bootstrap
-* JavaScript
+* JavaScript | DOM
