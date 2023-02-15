@@ -1,0 +1,44 @@
+.players {
+  display: flex;
+  justify-content: space-around;
+  padding: .8rem;
+  border: 4px dashed #000;
+  width: 150vh;
+}
+
+.x, .O {
+  font-size: 58px;
+  color: rgb(0, 0, 110);
+}
+
+.p1, .p2{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#gameBoard {
+  background-color: #232323;
+  display: grid;
+  grid-template-columns: 6rem 6rem 6rem;
+  grid-template-rows: 6rem 6rem 6rem;
+  gap: .5rem;
+  margin-bottom: 1.5rem;
+  max-width: 19rem;
+}
+
+#gameBoard span {
+  background-color: #ddd;
+  color: rgb(0, 0, 110);
+  display: grid;
+  place-content: center;
+  font-size: 5rem;
+}
+
+#gameBoard span.win {
+  background-color: #25a340;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

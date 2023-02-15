@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  height: 7vh;
+  margin-top: auto;
+  font-size: 12px;
+  font-weight: 500;
+}
+.footer a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer a:hover {
+  color: #b9b9b9;
+}
+.copyMBPocas {
+  color: #555252;
+}
+.iconFooter {
+  color: #fff;
+  margin-left: 5px;
+  font-size: 14px;
+}
+.iconFooter:hover {
+  color: #b9b9b9;
+}
